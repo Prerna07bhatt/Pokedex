@@ -1,0 +1,104 @@
+.container{
+    width: 25em;
+    height: 37rem;
+    border: 0.7rem solid rgb(196, 196, 197);
+    margin: auto;
+    margin-top: 1rem;
+   background-color: rgb(134, 196, 207);
+    border-radius: 2rem;  
+    font-family: "Poppins";
+}
+
+.rank{
+    background-color: #fff;
+    width: 20%;
+    height: 1.6rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-bottom: 0;
+}
+
+.pokemon-img{
+    height: 13rem;
+    width: 13rem;
+    padding-left: 6rem; 
+    margin: 0; 
+    
+}
+.strength{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.name{
+    margin: 0;
+    margin-left: 6.8rem;
+    font-size: 3rem;
+    line-height: 2.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gen{
+    /* margin-left: 42rem; */
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    background-color: rgb(95, 17, 239);
+    color: white;
+    margin-left: 6rem;
+    border-radius: 2rem;
+    margin-top: 1.2rem;
+} 
+
+
+.stas{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-top: 3.5rem; */
+}
+.no{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-right: 1rem;
+}
+.line{
+    line-height: 1rem;
+}
+h3.ability{
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(39, 37, 37);
+    
+}
+#strength{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(16, 15, 15);
+}
+
+/* Stating phase */
+.info{
+    height: 15rem;
+    width: 25rem;
+    display: none;
+}
+.pokemon-img {
+    display: none;
+}
+.rank{
+    display: none;
+}
+.front{
+    height: 31rem;
+    width: 23rem;
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+}
